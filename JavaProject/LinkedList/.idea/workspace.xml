@@ -12,11 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="430">
+              <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Carry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/Carry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -45,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="147" column="35" lean-forward="false" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+            <state relative-caret-position="400">
+              <caret line="205" column="25" lean-forward="true" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -74,6 +84,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/algorithmcode/Node.java" />
         <option value="$PROJECT_DIR$/src/com/algorithmcode/Index.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithmcode/Carry.java" />
         <option value="$PROJECT_DIR$/src/com/algorithmcode/Main.java" />
         <option value="$PROJECT_DIR$/src/com/algorithmcode/LinkedList.java" />
       </list>
@@ -263,10 +274,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/Carry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="147" column="35" lean-forward="false" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -292,8 +303,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="430">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithmcode/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="205" column="25" lean-forward="true" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
           <folding />
         </state>
       </provider>

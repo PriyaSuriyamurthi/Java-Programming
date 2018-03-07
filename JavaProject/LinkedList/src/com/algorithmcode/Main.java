@@ -29,6 +29,31 @@ public class Main {
         LinkedList partitionList = llist.partitionLinkedList(5);
         System.out.println("After Partition");
         partitionList.printList();
+        LinkedList sum1 = new LinkedList();
+        LinkedList sum2 = new LinkedList();
+        sum1.prepend(7);
+        sum1.prepend(1);
+        sum1.prepend(6);
+        sum2.prepend(5);
+        sum2.prepend(9);
+        sum2.prepend(2);
+        Node finalSumHead = sum1.sumLinkedList(sum1.head,sum2.head);
+        System.out.println("Final Sum details :");
+        sum1.printListHead(finalSumHead);
+        Node finalReverseSum = sum1.sumReverseLinkedList(sum1.head,sum2.head,new Carry(), new LinkedList());
+        System.out.println("Final Reverse Sum details :");
+        sum1.printListHead(finalReverseSum);
+        LinkedList isPal = new LinkedList();
+        isPal.append('C');
+        isPal.append('H');
+        isPal.append('U');
+        //isPal.append('R');
+        isPal.append('H');
+        isPal.append('C');
+        /*isPal.append('L');
+        isPal.append('A');
+        isPal.append('M');*/
+        System.out.println("Is the Linked List Palindrome "+isPal.isPalindrome(isPal.head));
         //llist.head = llist.partition(llist.head, 5);
         //llist.printList();
     }

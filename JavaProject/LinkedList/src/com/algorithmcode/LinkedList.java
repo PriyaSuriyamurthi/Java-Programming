@@ -168,13 +168,69 @@ public class LinkedList {
 
         return head;
     }
+    //Sum of 2 Linked List with 1's at the head position
+    public Node sumLinkedList(Node head1, Node head2) {
+        LinkedList finalSum = new LinkedList();
+        int remainder, sum=0;
+        while (head1 != null && head2 != null) {
+            remainder = (head1.data + head2.data)%10;
+            finalSum.append(sum + remainder);
+            sum = (head1.data + head2.data)/10;
+            head1 = head1.next;
+            head2 = head2.next;
+        }
+        return finalSum.head;
+    }
+    //Sum of 2 LinkedList with 1's at the tail position
+    public Node sumReverseLinkedList(Node head1, Node head2, Carry carry, LinkedList finalReverseSum) {
+        if(head1 == null && head2 == null) {
+            return null;
+        }
+        sumReverseLinkedList(head1.next, head2.next, carry, finalReverseSum);
+        int addValue = head1.data + head2.data + carry.carry;
+        carry.carry = addValue / 10;
+        addValue %= 10;
+        finalReverseSum.prepend(addValue);
+        return finalReverseSum.head;
+    }
+
+    //Check if a LinkedList is Palindrome
+    Node left;
+    public Boolean isPalindrome(Node right) {
+        left = head;
+        if (right == null) {
+            return true;
+        }
+        Boolean isPal = isPalindrome(right.next);
+        if(isPal == false) {
+            return false;
+        }
+        Boolean isPal1 = (left.data == right.data);
+        left = left.next;
+        return isPal1;
+    }
+
+    public int lengthOfLinkedList(Node head) {
+        int length = 0;
+        while(head == null) {
+            ++length;
+            head = head.next;
+        }
+        return length;
+    }
     // Print the LinkedList
     public void printList(){
         Node current = head;
-        while(current.next!= null) {
+        while(current != null) {
             System.out.println(current.data);
             current = current.next;
         }
-        System.out.println(current.data);
+    }
+
+    public void printListHead(Node head) {
+        while(head != null) {
+            System.out.println(head.data);
+            head = head.next;
+        }
     }
 }
