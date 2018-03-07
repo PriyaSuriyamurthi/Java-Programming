@@ -1,4 +1,4 @@
-package com.algorithmcode;
+package Intersection;
 
 public class Node {
     Node next =null;
