@@ -2,7 +2,7 @@ package com.priya.linkedlist.SumList;
 
 //Create a class LinkedList with various methods/functions
 //like append, prepend, remove Duplicates, PrintKth
-public class LinkedList {
+public class    LinkedList {
     Node head;
     //append method is used to add nodes to the end
     //of the linked List that is to the tail
@@ -65,11 +65,11 @@ public class LinkedList {
             current = current.next;
         }
     }
-
     public void printListHead(Node head) {
         while(head != null) {
             System.out.println(head.data);
-            head = head.next;
+            head = head .next;
         }
     }
+
 }

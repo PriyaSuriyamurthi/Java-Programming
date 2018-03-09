@@ -45,7 +45,7 @@ public class LinkedList {
         Node longer = length1List < length2List ? head2 : head1;
         longer = getKthNode(longer,(length1List-length2List));
         while(shorter != null && longer != null) {
-            if(shorter.next == longer.next) {
+            if(shorter == longer) {
                 return shorter.next;
             }
             shorter = shorter.next;
