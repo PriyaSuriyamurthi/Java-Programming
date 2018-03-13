@@ -18,21 +18,21 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/OrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="173" column="57" lean-forward="false" selection-start-line="173" selection-start-column="57" selection-end-line="173" selection-end-column="57" />
+            <state relative-caret-position="562">
+              <caret line="186" column="5" lean-forward="false" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2087#2093#0" expanded="true" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="675">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>height</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -86,10 +91,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/priya/linkedlist/DoublyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/priya/linkedlist/DoublyLinkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/priya/linkedlist/DoublyLinkedList/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/InOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/OrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Main.java" />
       </list>
     </option>
   </component>
@@ -708,34 +713,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/OrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="173" column="57" lean-forward="false" selection-start-line="173" selection-start-column="57" selection-end-line="173" selection-end-column="57" />
+        <state relative-caret-position="562">
+          <caret line="186" column="5" lean-forward="false" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2087#2093#0" expanded="true" />
             <element signature="e#4060#4066#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/priya/tree/InOrderTraversal/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

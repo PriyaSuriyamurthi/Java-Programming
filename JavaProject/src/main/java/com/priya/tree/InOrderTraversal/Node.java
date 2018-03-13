@@ -3,6 +3,7 @@ package com.priya.tree.InOrderTraversal;
 public class Node {
     Node right,left;
     int data;
+    int ht;
     public Node(int data) {
         this.data = data;
     }

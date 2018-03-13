@@ -2,14 +2,14 @@ package com.priya.tree.InOrderTraversal;
 
 public class Main {
     public static void main(String args[]) {
-        Node newNode = new Node(4);
-        newNode.insert(2);
+        Node newNode = new Node(3);
+       // newNode.insert(3);
         //newNode.insert(5);
-        newNode.insert(7);
-        newNode.insert(1);
+        newNode.insert(2);
+        newNode.insert(4);
         //newNode.insert(30);
-        newNode.insert(3);
-        newNode.insert(6);
+        newNode.insert(5);
+        //newNode.insert(6);
         OrderTraversal inorder = new OrderTraversal();
         System.out.println("In Order Traversal");
         inorder.printInOrder(newNode);
@@ -25,5 +25,7 @@ public class Main {
         System.out.println("Tree is BST? "+inorder.checkBST(newNode));
         int[] array = {1,2,3,4,5,6,7,8,9,10};
         inorder.createMinimalHgtTree(array);
+        inorder.insertVal(newNode,6);
+        inorder.levelOrder(newNode);
     }
 }
