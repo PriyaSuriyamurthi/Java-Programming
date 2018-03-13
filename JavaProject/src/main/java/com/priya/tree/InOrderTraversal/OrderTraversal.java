@@ -126,7 +126,7 @@ public class OrderTraversal {
         }
         return returnNode;
 */
-        Node temp = root; 
+        Node temp = root;
 
         while (true) {
             if (temp.data > v1 && temp.data > v2) {
@@ -138,4 +138,52 @@ public class OrderTraversal {
             }
         }
     }
+
+    Queue<Node> q1 = new LinkedList<Node>();
+    boolean checkBST(Node root) {
+        int prev =0;
+        return inOrderTraversal(root,prev);
+        /*while(!q1.isEmpty()) {
+            Node compare = q1.peek();
+            q1.remove();
+            if(q1.isEmpty()) {
+                break;
+            }
+            if(compare.data >= q1.peek().data) {
+                return false;
+            }
+        }*/
+
+    }
+    Boolean inOrderTraversal(Node root, int prev) {
+        if(root.left != null) {
+            inOrderTraversal(root.left,prev);
+        }
+        if(prev >= root.data) {
+            return false;
+        }
+        prev = root.data;
+        if(root.right != null) {
+            inOrderTraversal(root.right,prev);
+        }
+        return true;
+    }
+
+    void createMinimalHgtTree(int array[]) {
+
+        Node node = minimalHgtTree(array,0,array.length-1);
+        levelOrder(node);
+    }
+
+    Node minimalHgtTree(int array[], int start,int end){
+        if(end < start) {
+            return null;
+        }
+        int mid = (start+end)/2;
+        Node root = new Node(array[mid]);
+        root.left = minimalHgtTree(array,start,mid-1);
+        root.right = minimalHgtTree(array,mid+1,end);
+        return root;
+    }
+
 }
