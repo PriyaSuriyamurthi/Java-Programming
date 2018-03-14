@@ -1,4 +1,4 @@
-package com.priya.tree.InOrderTraversal;
+package com.priya.tree.MinimalHgtTree;
 
 
 public class Main {
@@ -12,7 +12,7 @@ public class Main {
         newNode.insert(1);
         newNode.insert(6);
         OrderTraversal inorder = new OrderTraversal();
-        System.out.println("In Order Traversal");
-        inorder.printInOrder(newNode);
-    }
+        int[] array = {1,2,3,4,5,6,7,8,9,10};
+        inorder.createMinimalHgtTree(array);
+   }
 }

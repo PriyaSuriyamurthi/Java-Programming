@@ -1,4 +1,4 @@
-package com.priya.tree.InOrderTraversal;
+package com.priya.tree.CheckBST;
 
 
 public class Main {
@@ -12,7 +12,6 @@ public class Main {
         newNode.insert(1);
         newNode.insert(6);
         OrderTraversal inorder = new OrderTraversal();
-        System.out.println("In Order Traversal");
-        inorder.printInOrder(newNode);
-    }
+        System.out.println("Tree is BST? "+inorder.checkBST(newNode));
+        }
 }

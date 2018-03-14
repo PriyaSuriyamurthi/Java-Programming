@@ -1,5 +1,4 @@
-package com.priya.tree.InOrderTraversal;
-
+package com.priya.tree.LevelOrder;
 
 public class Main {
     public static void main(String args[]) {
@@ -12,7 +11,7 @@ public class Main {
         newNode.insert(1);
         newNode.insert(6);
         OrderTraversal inorder = new OrderTraversal();
-        System.out.println("In Order Traversal");
-        inorder.printInOrder(newNode);
+        System.out.println("Level Order Tree Traversal");
+        inorder.levelOrder(newNode);
     }
 }
