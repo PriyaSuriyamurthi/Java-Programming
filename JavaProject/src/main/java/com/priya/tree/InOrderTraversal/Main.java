@@ -25,7 +25,8 @@ public class Main {
         System.out.println("Tree is BST? "+inorder.checkBST(newNode));
         int[] array = {1,2,3,4,5,6,7,8,9,10};
         inorder.createMinimalHgtTree(array);
-        inorder.insertVal(newNode,6);
-        inorder.levelOrder(newNode);
+        //inorder.insertVal(newNode,6);
+        //inorder.levelOrder(newNode);
+        System.out.println("BST is balanced "+inorder.checkBalanced(newNode));
     }
 }
