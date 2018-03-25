@@ -82,7 +82,23 @@ public class OrderTraversal {
             return 1 + Math.max(heightNode(root.left), heightNode(root.right));
         }
     }
-
+    int count =0;
+    public int longestUnivaluePath(Node root) {
+        if(root == null) {
+            return 1;
+        }
+        System.out.println("root is "+root.right.data);
+        if(root.left != null && root.data == root.left.data) {
+            System.out.println("left is "+root.left.data);
+            count += longestUnivaluePath(root.left);
+        }
+        if(root.right != null && root.data == root.right.data) {
+            System.out.println("right is "+root.right.data);
+            count += longestUnivaluePath(root.right);
+        }
+        System.out.println(count);
+        return count;
+    }
 
 
 }
