@@ -11,6 +11,10 @@ public class Main {
         newNode.insert(30);
         newNode.insert(1);
         newNode.insert(6);
+        newNode.insert(8);
+        newNode.insert(11);
+        newNode.insert(12);
+        newNode.insert(13);
         OrderTraversal inorder = new OrderTraversal();
         System.out.println("BST is balanced "+inorder.checkBalanced(newNode));
     }

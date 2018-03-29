@@ -24,8 +24,8 @@ public class OrderTraversal {
             return true;
         }
         if(checkBalanced(root.left) && checkBalanced(root.right)) {
-            int balance = heightCheck(root.left) - heightCheck(root.right);
-            if (balance < -1 || balance > 1) {
+            int balance = Math.abs(heightCheck(root.left) - heightCheck(root.right));
+            if ( balance > 1) {
                 return false;
             }
         } else {

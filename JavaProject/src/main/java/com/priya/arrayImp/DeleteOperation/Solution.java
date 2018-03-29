@@ -20,6 +20,7 @@ public class Solution {
             System.out.println(arra[i]);
         }
         System.out.println("words are "+soln.uniqueMorseRepresentations(word));
+        System.out.println("Sum is "+soln.minPathSum(new int[][]{{1,2},{1,1}}));
     }
 
     public int minDistance(String word1, String word2) {
@@ -87,5 +88,17 @@ public class Solution {
             seen.add(morseRep);
             }
         return seen.size();
+    }
+    public int minPathSum(int[][] grid) {
+        int sum =0;
+        int i=0,j;
+        for(j=0;j<grid[i].length;j++) {
+            sum += grid[i][j];
+        }
+        j--;
+        for(i=1;i<grid.length;i++) {
+            sum += grid[i][j];
+        }
+        return sum;
     }
 }
